@@ -26,6 +26,7 @@
         <option value="$PROJECT_DIR$/example-10-email/pom.xml" />
         <option value="$PROJECT_DIR$/example-11-restful/pom.xml" />
         <option value="$PROJECT_DIR$/example-12-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/example-13-spring_data_jpa/pom.xml" />
       </list>
     </option>
   </component>

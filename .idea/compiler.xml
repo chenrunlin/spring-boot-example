@@ -19,6 +19,7 @@
         <module name="example-11-restful" />
         <module name="example-12-swagger" />
         <module name="example-13-multi_datasource-jdbc_template" />
+        <module name="example-13-spring_data_jpa" />
         <module name="example-email" />
         <module name="example-helloworld" />
         <module name="example-interceptor" />
@@ -47,6 +48,7 @@
       <module name="example-11-restful" target="1.7" />
       <module name="example-12-swagger" target="1.7" />
       <module name="example-13-multi_datasource-jdbc_template" target="1.7" />
+      <module name="example-13-spring_data_jpa" target="1.7" />
       <module name="example-email" target="1.7" />
       <module name="example-helloworld" target="1.7" />
       <module name="example-interceptor" target="1.7" />
