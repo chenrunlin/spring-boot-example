@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="example-01-helloworld" />
+        <module name="example-02-properties" />
+        <module name="example-03-thymeleaf" />
+        <module name="example-04-jsp" />
+        <module name="example-05-interceptor" />
+        <module name="example-06-log" />
+        <module name="example-07-jdbc_template" />
+        <module name="example-08-mybatis" />
+        <module name="example-09-scheduler_task" />
+        <module name="example-10-email" />
+        <module name="example-11-restful" />
+        <module name="example-12-swagger" />
+        <module name="example-13-multi_datasource-jdbc_template" />
+        <module name="example-email" />
+        <module name="example-helloworld" />
+        <module name="example-interceptor" />
+        <module name="example-jdbc" />
+        <module name="example-jsp" />
+        <module name="example-log" />
+        <module name="example-log-6" />
+        <module name="example-properties" />
+        <module name="example-thymeleaf" />
+        <module name="spring-boot-example" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="example-01-helloworld" target="1.7" />
+      <module name="example-02-properties" target="1.7" />
+      <module name="example-03-jsp" target="1.7" />
+      <module name="example-03-thymeleaf" target="1.7" />
+      <module name="example-04-jsp" target="1.7" />
+      <module name="example-05-interceptor" target="1.7" />
+      <module name="example-06-log" target="1.7" />
+      <module name="example-07-jdbc" target="1.7" />
+      <module name="example-07-jdbc_template" target="1.7" />
+      <module name="example-08-mybatis" target="1.7" />
+      <module name="example-09-scheduler_task" target="1.7" />
+      <module name="example-10-email" target="1.8" />
+      <module name="example-11-restful" target="1.7" />
+      <module name="example-12-swagger" target="1.7" />
+      <module name="example-13-multi_datasource-jdbc_template" target="1.7" />
+      <module name="example-email" target="1.7" />
+      <module name="example-helloworld" target="1.7" />
+      <module name="example-interceptor" target="1.7" />
+      <module name="example-jdbc" target="1.7" />
+      <module name="example-jsp" target="1.7" />
+      <module name="example-log" target="1.7" />
+      <module name="example-log-6" target="1.7" />
+      <module name="example-properties" target="1.7" />
+      <module name="example-thymeleaf" target="1.7" />
+      <module name="helloworld" target="1.7" />
+      <module name="spring-boot-example" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

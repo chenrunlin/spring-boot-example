@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/example-01-helloworld/example-01-helloworld.iml" filepath="$PROJECT_DIR$/example-01-helloworld/example-01-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-02-properties/example-02-properties.iml" filepath="$PROJECT_DIR$/example-02-properties/example-02-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-03-thymeleaf/example-03-thymeleaf.iml" filepath="$PROJECT_DIR$/example-03-thymeleaf/example-03-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-04-jsp/example-04-jsp.iml" filepath="$PROJECT_DIR$/example-04-jsp/example-04-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-05-interceptor/example-05-interceptor.iml" filepath="$PROJECT_DIR$/example-05-interceptor/example-05-interceptor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-06-log/example-06-log.iml" filepath="$PROJECT_DIR$/example-06-log/example-06-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-07-jdbc_template/example-07-jdbc_template.iml" filepath="$PROJECT_DIR$/example-07-jdbc_template/example-07-jdbc_template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-08-mybatis/example-08-mybatis.iml" filepath="$PROJECT_DIR$/example-08-mybatis/example-08-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-09-scheduler_task/example-09-scheduler_task.iml" filepath="$PROJECT_DIR$/example-09-scheduler_task/example-09-scheduler_task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-10-email/example-10-email.iml" filepath="$PROJECT_DIR$/example-10-email/example-10-email.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-11-restful/example-11-restful.iml" filepath="$PROJECT_DIR$/example-11-restful/example-11-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-12-swagger/example-12-swagger.iml" filepath="$PROJECT_DIR$/example-12-swagger/example-12-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example-04-jsp/example-13-multi_datasource-jdbc_template.iml" filepath="$PROJECT_DIR$/example-04-jsp/example-13-multi_datasource-jdbc_template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-example.iml" filepath="$PROJECT_DIR$/spring-boot-example.iml" />
+    </modules>
+  </component>
+</project>

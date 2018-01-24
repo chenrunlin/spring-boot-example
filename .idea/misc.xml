@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/example-04-jsp" />
+    <file type="web" url="file://$PROJECT_DIR$/example-jsp-4" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/example-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/example-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/example-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/example-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/example-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/example-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/example-01-helloworld/pom.xml" />
+        <option value="$PROJECT_DIR$/example-02-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/example-03-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/example-04-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/example-05-interceptor/pom.xml" />
+        <option value="$PROJECT_DIR$/example-06-log/pom.xml" />
+        <option value="$PROJECT_DIR$/example-07-jdbc_template/pom.xml" />
+        <option value="$PROJECT_DIR$/example-08-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/example-09-scheduler_task/pom.xml" />
+        <option value="$PROJECT_DIR$/example-10-email/pom.xml" />
+        <option value="$PROJECT_DIR$/example-11-restful/pom.xml" />
+        <option value="$PROJECT_DIR$/example-12-swagger/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
