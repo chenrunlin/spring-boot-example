@@ -9,7 +9,7 @@
   </resultMap>
 
   <sql id="baseColumnList" >
-    id, author, title,url
+    id, author, title, url
   </sql>
 
   <select id="queryLearnResouceList" resultMap="baseResultMap" parameterType="java.util.HashMap">
@@ -17,7 +17,6 @@
     <include refid="baseColumnList" />
     from learn_resource
     <where>
-      1 = 1
       <if test="author!= null and author !=''">
         AND author like CONCAT(CONCAT('%',#{author,jdbcType=VARCHAR}),'%')
       </if>
@@ -61,7 +60,5 @@
       #{idItem}
     </foreach>
   </delete>
-
-
 
 </mapper>
