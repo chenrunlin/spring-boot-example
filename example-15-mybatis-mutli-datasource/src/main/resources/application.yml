@@ -1,0 +1,14 @@
+server:
+    port: 8080
+
+busServerJdbc:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://119.53.211.78:10091/bus_server?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: Cbx88888888
+
+equWatchJdbc:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://119.53.211.78:10091/term_manage?characterEncoding=utf8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: Cbx88888888

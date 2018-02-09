@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.mapper.BlackListMapper" >
+
+	<resultMap id="resultMap" type="com.example.model.BlackList">
+		<id property="id" column="id" />
+		<result property="cardNo" column="card_no" />
+		<result property="cardType" column="card_type" />
+		<result property="createTime" column="create_time" />
+	</resultMap>
+
+	<!-- 根据id获取对象 -->
+	<select id="getBlackListById" parameterType="String" resultMap="resultMap">
+		select t.* from black_list t where t.id = #{id}
+	</select>
+	
+	<!-- 根据卡号获取对象 -->
+	<select id="getBlackListByCardNo" parameterType="String" resultMap="resultMap">
+		select t.* from black_list t where t.card_no = #{card_no}
+	</select>
+	
+	<!--获取所有对象  -->
+	<select id="getTotalBlackList" resultMap="resultMap">
+		select * from black_list limit 10
+	</select>
+</mapper>
