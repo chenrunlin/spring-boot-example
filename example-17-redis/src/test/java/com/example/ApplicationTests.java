@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
+import org.springframework.data.redis.core.ValueOperations;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
@@ -27,18 +28,19 @@ public class ApplicationTests {
 		Assert.assertEquals("111", stringRedisTemplate.opsForValue().get("aaa"));
 
 		// 保存对象
+		ValueOperations<String, User> operations = redisTemplate.opsForValue();
 		User user = new User("超人", 20);
-		redisTemplate.opsForValue().set(user.getUsername(), user);
+		operations.set(user.getUsername(), user);
 
 		user = new User("蝙蝠侠", 30);
-		redisTemplate.opsForValue().set(user.getUsername(), user);
+		operations.set(user.getUsername(), user);
 
 		user = new User("蜘蛛侠", 40);
-		redisTemplate.opsForValue().set(user.getUsername(), user);
+		operations.set(user.getUsername(), user);
 
-		Assert.assertEquals(20, redisTemplate.opsForValue().get("超人").getAge().longValue());
-		Assert.assertEquals(30, redisTemplate.opsForValue().get("蝙蝠侠").getAge().longValue());
-		Assert.assertEquals(40, redisTemplate.opsForValue().get("蜘蛛侠").getAge().longValue());
+		Assert.assertEquals(20, operations.get("超人").getAge().longValue());
+		Assert.assertEquals(30, operations.get("蝙蝠侠").getAge().longValue());
+		Assert.assertEquals(40, operations.get("蜘蛛侠").getAge().longValue());
 
 	}
 
