@@ -8,6 +8,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 /**
  * @author runlin.chen
  * @version 1.0 2018-02-26 15:12
+ *
+ * 利用@ControllerAdvice可以做很多东西，比如全局的统一异常处理等
  **/
 @ControllerAdvice
 public class GlobalExceptionHandler {
