@@ -34,7 +34,6 @@ public class UploadController {
             redirectAttributes.addFlashAttribute("message", "Please select a file to upload");
             return "redirect:uploadStatus";
         }
-
         try {
             // Get the file and save it somewhere
             byte[] bytes = file.getBytes();
@@ -43,12 +42,10 @@ public class UploadController {
 
             redirectAttributes.addFlashAttribute("message",
                     "You successfully uploaded '" + file.getOriginalFilename() + "'");
-
         } catch (IOException e) {
             e.printStackTrace();
             redirectAttributes.addFlashAttribute("message", "IOException");
         }
-
         return "redirect:/uploadStatus";
     }
 
