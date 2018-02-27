@@ -34,7 +34,7 @@ public class HomeController {
         UsernamePasswordToken token = new UsernamePasswordToken(user.getUsername(), user.getPassword());
         try {
             subject.login(token);
-            msg = "登录成功";
+            msg = "登录成功";//重复成功登录会走到这
         } catch (Exception e) {
             // 登录失败从request中获取shiro处理的异常信息。
             // shiroLoginFailure:就是shiro异常类的全类名.
